@@ -7,4 +7,6 @@ Note: Although the folder is called player-3.0.2, the version required is 3.1.1 
 
 Stage (v. 4.1.1 and later) can be found at https://github.com/rtv/Stage
 
+The ARDrone SDK can be found at http://developer.parrot.com/ar-drone.html
+
 This project aims to create a system of hot standbys that can take over for the main server when the main server loses functionality. For now, this project will attempt at creating the above situation with PINT, where remote backup servers will be able to start sending commands to the simulation created by Player/Stage once the main commanding server loses functionality.
