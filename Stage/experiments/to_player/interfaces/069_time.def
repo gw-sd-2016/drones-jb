@@ -1,0 +1,13 @@
+description {
+ * Here to benchmark how long it takes a message to go from one device to another.
+}
+
+/** Request a time measurment */
+message { REQ, GET_TIME, 1, player_time_time_req_t };
+
+typedef struct player_time_time_req
+{
+	uint64_t time;
+} player_time_time_req_t;
+
+
