@@ -1,0 +1,954 @@
+The system is: Linux - 3.16.0-52-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/2.8.12.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/2.8.12.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1102188879/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1102188879.dir/build.make CMakeFiles/cmTryCompileExec1102188879.dir/build
+make[1]: Entering directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1102188879.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1102188879.dir/testCCompiler.c.o   -c /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec1102188879
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1102188879.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1102188879.dir/testCCompiler.c.o  -o cmTryCompileExec1102188879 -rdynamic 
+make[1]: Leaving directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1603182542/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1603182542.dir/build.make CMakeFiles/cmTryCompileExec1603182542.dir/build
+make[1]: Entering directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1603182542.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1603182542.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec1603182542
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1603182542.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTryCompileExec1603182542.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec1603182542 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1603182542' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec1603182542 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec1603182542.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec1603182542/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec1603182542.dir/build.make CMakeFiles/cmTryCompileExec1603182542.dir/build]
+  ignore line: [make[1]: Entering directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec1603182542.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1603182542.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec1603182542]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1603182542.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTryCompileExec1603182542.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec1603182542 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1603182542' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec1603182542 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec1603182542.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/collect2] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec1603182542] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..]
+    arg [CMakeFiles/cmTryCompileExec1603182542.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/4.8;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4150287921/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4150287921.dir/build.make CMakeFiles/cmTryCompileExec4150287921.dir/build
+make[1]: Entering directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4150287921.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec4150287921.dir/testCXXCompiler.cxx.o -c /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec4150287921
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4150287921.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTryCompileExec4150287921.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec4150287921 -rdynamic 
+make[1]: Leaving directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3617830822/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3617830822.dir/build.make CMakeFiles/cmTryCompileExec3617830822.dir/build
+make[1]: Entering directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3617830822.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec3617830822.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec3617830822
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3617830822.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTryCompileExec3617830822.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec3617830822 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3617830822' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec3617830822 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec3617830822.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec3617830822/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec3617830822.dir/build.make CMakeFiles/cmTryCompileExec3617830822.dir/build]
+  ignore line: [make[1]: Entering directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec3617830822.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec3617830822.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec3617830822]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3617830822.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTryCompileExec3617830822.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec3617830822 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3617830822' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec3617830822 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec3617830822.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/collect2] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec3617830822] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..]
+    arg [CMakeFiles/cmTryCompileExec3617830822.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/4.8;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the function getaddrinfo exists passed with the following output:
+Change Dir: /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1533704142/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1533704142.dir/build.make CMakeFiles/cmTryCompileExec1533704142.dir/build
+make[1]: Entering directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1533704142.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=getaddrinfo   -o CMakeFiles/cmTryCompileExec1533704142.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1533704142
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1533704142.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=getaddrinfo    CMakeFiles/cmTryCompileExec1533704142.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1533704142 -rdynamic 
+make[1]: Leaving directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function xdr_free exists passed with the following output:
+Change Dir: /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2166021452/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2166021452.dir/build.make CMakeFiles/cmTryCompileExec2166021452.dir/build
+make[1]: Entering directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2166021452.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=xdr_free   -o CMakeFiles/cmTryCompileExec2166021452.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2166021452
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2166021452.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=xdr_free    CMakeFiles/cmTryCompileExec2166021452.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2166021452 -rdynamic 
+make[1]: Leaving directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function xdr_longlong_t exists passed with the following output:
+Change Dir: /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec531038508/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec531038508.dir/build.make CMakeFiles/cmTryCompileExec531038508.dir/build
+make[1]: Entering directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec531038508.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=xdr_longlong_t   -o CMakeFiles/cmTryCompileExec531038508.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec531038508
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec531038508.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=xdr_longlong_t    CMakeFiles/cmTryCompileExec531038508.dir/CheckFunctionExists.c.o  -o cmTryCompileExec531038508 -rdynamic 
+make[1]: Leaving directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test HAVE_STRUCT_TIMESPEC succeded with the following output:
+Change Dir: /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1637884976/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1637884976.dir/build.make CMakeFiles/cmTryCompileExec1637884976.dir/build
+make[1]: Entering directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1637884976.dir/src.c.o
+/usr/bin/cc   -Wall -DHAVE_STRUCT_TIMESPEC   -o CMakeFiles/cmTryCompileExec1637884976.dir/src.c.o   -c /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp/src.c
+/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp/src.c:2:32: warning: unused variable ‘tmp’ [-Wunused-variable]
+ int main () { struct timespec *tmp; return 0; }
+                                ^
+Linking C executable cmTryCompileExec1637884976
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1637884976.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DHAVE_STRUCT_TIMESPEC    CMakeFiles/cmTryCompileExec1637884976.dir/src.c.o  -o cmTryCompileExec1637884976 -rdynamic 
+make[1]: Leaving directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <time.h>
+int main () { struct timespec *tmp; return 0; }
+Determining if the function gettimeofday exists passed with the following output:
+Change Dir: /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4009070341/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4009070341.dir/build.make CMakeFiles/cmTryCompileExec4009070341.dir/build
+make[1]: Entering directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4009070341.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=gettimeofday   -o CMakeFiles/cmTryCompileExec4009070341.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec4009070341
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4009070341.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=gettimeofday    CMakeFiles/cmTryCompileExec4009070341.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4009070341 -rdynamic 
+make[1]: Leaving directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function usleep exists passed with the following output:
+Change Dir: /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2718566716/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2718566716.dir/build.make CMakeFiles/cmTryCompileExec2718566716.dir/build
+make[1]: Entering directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2718566716.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=usleep   -o CMakeFiles/cmTryCompileExec2718566716.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2718566716
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2718566716.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=usleep    CMakeFiles/cmTryCompileExec2718566716.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2718566716 -rdynamic 
+make[1]: Leaving directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function cfmakeraw exists passed with the following output:
+Change Dir: /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec557459603/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec557459603.dir/build.make CMakeFiles/cmTryCompileExec557459603.dir/build
+make[1]: Entering directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec557459603.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=cfmakeraw   -o CMakeFiles/cmTryCompileExec557459603.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec557459603
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec557459603.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=cfmakeraw    CMakeFiles/cmTryCompileExec557459603.dir/CheckFunctionExists.c.o  -o cmTryCompileExec557459603 -rdynamic 
+make[1]: Leaving directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function dirname exists passed with the following output:
+Change Dir: /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec323284700/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec323284700.dir/build.make CMakeFiles/cmTryCompileExec323284700.dir/build
+make[1]: Entering directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec323284700.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=dirname   -o CMakeFiles/cmTryCompileExec323284700.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec323284700
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec323284700.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=dirname    CMakeFiles/cmTryCompileExec323284700.dir/CheckFunctionExists.c.o  -o cmTryCompileExec323284700 -rdynamic 
+make[1]: Leaving directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function getopt exists passed with the following output:
+Change Dir: /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1427463168/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1427463168.dir/build.make CMakeFiles/cmTryCompileExec1427463168.dir/build
+make[1]: Entering directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1427463168.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=getopt   -o CMakeFiles/cmTryCompileExec1427463168.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1427463168
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1427463168.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=getopt    CMakeFiles/cmTryCompileExec1427463168.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1427463168 -rdynamic 
+make[1]: Leaving directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function getopt_long exists passed with the following output:
+Change Dir: /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3634425830/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3634425830.dir/build.make CMakeFiles/cmTryCompileExec3634425830.dir/build
+make[1]: Entering directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3634425830.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=getopt_long   -o CMakeFiles/cmTryCompileExec3634425830.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3634425830
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3634425830.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=getopt_long    CMakeFiles/cmTryCompileExec3634425830.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3634425830 -rdynamic 
+make[1]: Leaving directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files linux/joystick.h exist passed with the following output:
+Change Dir: /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2860434316/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2860434316.dir/build.make CMakeFiles/cmTryCompileExec2860434316.dir/build
+make[1]: Entering directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2860434316.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec2860434316.dir/CheckIncludeFiles.c.o   -c /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2860434316
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2860434316.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall     CMakeFiles/cmTryCompileExec2860434316.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2860434316 -rdynamic 
+make[1]: Leaving directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files stdint.h exist passed with the following output:
+Change Dir: /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec397784035/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec397784035.dir/build.make CMakeFiles/cmTryCompileExec397784035.dir/build
+make[1]: Entering directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec397784035.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec397784035.dir/CheckIncludeFiles.c.o   -c /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec397784035
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec397784035.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall     CMakeFiles/cmTryCompileExec397784035.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec397784035 -rdynamic 
+make[1]: Leaving directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files strings.h exist passed with the following output:
+Change Dir: /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2610304108/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2610304108.dir/build.make CMakeFiles/cmTryCompileExec2610304108.dir/build
+make[1]: Entering directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2610304108.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec2610304108.dir/CheckIncludeFiles.c.o   -c /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2610304108
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2610304108.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall     CMakeFiles/cmTryCompileExec2610304108.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2610304108 -rdynamic 
+make[1]: Leaving directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function lt_dlopenext exists in the ltdl passed with the following output:
+Change Dir: /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1818110872/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1818110872.dir/build.make CMakeFiles/cmTryCompileExec1818110872.dir/build
+make[1]: Entering directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1818110872.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=lt_dlopenext   -o CMakeFiles/cmTryCompileExec1818110872.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1818110872
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1818110872.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=lt_dlopenext    CMakeFiles/cmTryCompileExec1818110872.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1818110872 -rdynamic -lltdl -ldl 
+make[1]: Leaving directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function nanosleep exists passed with the following output:
+Change Dir: /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3814598466/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3814598466.dir/build.make CMakeFiles/cmTryCompileExec3814598466.dir/build
+make[1]: Entering directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3814598466.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=nanosleep   -o CMakeFiles/cmTryCompileExec3814598466.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3814598466
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3814598466.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=nanosleep    CMakeFiles/cmTryCompileExec3814598466.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3814598466 -rdynamic 
+make[1]: Leaving directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function poll exists passed with the following output:
+Change Dir: /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3164134235/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3164134235.dir/build.make CMakeFiles/cmTryCompileExec3164134235.dir/build
+make[1]: Entering directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3164134235.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=poll   -o CMakeFiles/cmTryCompileExec3164134235.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3164134235
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3164134235.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=poll    CMakeFiles/cmTryCompileExec3164134235.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3164134235 -rdynamic 
+make[1]: Leaving directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function atan2 exists in the m passed with the following output:
+Change Dir: /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1252369641/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1252369641.dir/build.make CMakeFiles/cmTryCompileExec1252369641.dir/build
+make[1]: Entering directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1252369641.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=atan2   -o CMakeFiles/cmTryCompileExec1252369641.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘atan2’ [enabled by default]
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec1252369641
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1252369641.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=atan2    CMakeFiles/cmTryCompileExec1252369641.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1252369641 -rdynamic -lm 
+make[1]: Leaving directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function round exists passed with the following output:
+Change Dir: /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4069405438/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4069405438.dir/build.make CMakeFiles/cmTryCompileExec4069405438.dir/build
+make[1]: Entering directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4069405438.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=round   -o CMakeFiles/cmTryCompileExec4069405438.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘round’ [enabled by default]
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec4069405438
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4069405438.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=round    CMakeFiles/cmTryCompileExec4069405438.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4069405438 -rdynamic -lm 
+make[1]: Leaving directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function rint exists passed with the following output:
+Change Dir: /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2491306747/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2491306747.dir/build.make CMakeFiles/cmTryCompileExec2491306747.dir/build
+make[1]: Entering directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2491306747.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=rint   -o CMakeFiles/cmTryCompileExec2491306747.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘rint’ [enabled by default]
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec2491306747
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2491306747.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=rint    CMakeFiles/cmTryCompileExec2491306747.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2491306747 -rdynamic -lm 
+make[1]: Leaving directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function jpeg_read_header exists in the jpeg passed with the following output:
+Change Dir: /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2589925583/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2589925583.dir/build.make CMakeFiles/cmTryCompileExec2589925583.dir/build
+make[1]: Entering directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2589925583.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=jpeg_read_header   -o CMakeFiles/cmTryCompileExec2589925583.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2589925583
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2589925583.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=jpeg_read_header    CMakeFiles/cmTryCompileExec2589925583.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2589925583 -rdynamic -ljpeg 
+make[1]: Leaving directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files stdio.h;jpeglib.h exist passed with the following output:
+Change Dir: /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2969144352/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2969144352.dir/build.make CMakeFiles/cmTryCompileExec2969144352.dir/build
+make[1]: Entering directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2969144352.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec2969144352.dir/CheckIncludeFiles.c.o   -c /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2969144352
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2969144352.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall     CMakeFiles/cmTryCompileExec2969144352.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2969144352 -rdynamic 
+make[1]: Leaving directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function compressBound exists passed with the following output:
+Change Dir: /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2551932019/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2551932019.dir/build.make CMakeFiles/cmTryCompileExec2551932019.dir/build
+make[1]: Entering directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2551932019.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=compressBound -I/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp/zlib.h    -o CMakeFiles/cmTryCompileExec2551932019.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2551932019
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2551932019.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=compressBound    CMakeFiles/cmTryCompileExec2551932019.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2551932019 -rdynamic -lz 
+make[1]: Leaving directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function compress2 exists in the z passed with the following output:
+Change Dir: /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec18609944/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec18609944.dir/build.make CMakeFiles/cmTryCompileExec18609944.dir/build
+make[1]: Entering directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec18609944.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=compress2   -o CMakeFiles/cmTryCompileExec18609944.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec18609944
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec18609944.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=compress2    CMakeFiles/cmTryCompileExec18609944.dir/CheckFunctionExists.c.o  -o cmTryCompileExec18609944 -rdynamic -lz 
+make[1]: Leaving directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files zlib.h exist passed with the following output:
+Change Dir: /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1579064691/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1579064691.dir/build.make CMakeFiles/cmTryCompileExec1579064691.dir/build
+make[1]: Entering directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1579064691.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec1579064691.dir/CheckIncludeFiles.c.o   -c /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1579064691
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1579064691.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall     CMakeFiles/cmTryCompileExec1579064691.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1579064691 -rdynamic 
+make[1]: Leaving directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function clock_gettime exists in the rt passed with the following output:
+Change Dir: /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4274648690/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4274648690.dir/build.make CMakeFiles/cmTryCompileExec4274648690.dir/build
+make[1]: Entering directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4274648690.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=clock_gettime   -o CMakeFiles/cmTryCompileExec4274648690.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec4274648690
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4274648690.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=clock_gettime    CMakeFiles/cmTryCompileExec4274648690.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4274648690 -rdynamic -lrt 
+make[1]: Leaving directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function clock_gettime exists passed with the following output:
+Change Dir: /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2307054508/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2307054508.dir/build.make CMakeFiles/cmTryCompileExec2307054508.dir/build
+make[1]: Entering directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2307054508.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=clock_gettime   -o CMakeFiles/cmTryCompileExec2307054508.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2307054508
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2307054508.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=clock_gettime    CMakeFiles/cmTryCompileExec2307054508.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2307054508 -rdynamic -lrt 
+make[1]: Leaving directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4126460040/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4126460040.dir/build.make CMakeFiles/cmTryCompileExec4126460040.dir/build
+make[1]: Entering directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4126460040.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec4126460040.dir/CheckIncludeFile.c.o   -c /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec4126460040
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4126460040.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall     CMakeFiles/cmTryCompileExec4126460040.dir/CheckIncludeFile.c.o  -o cmTryCompileExec4126460040 -rdynamic 
+make[1]: Leaving directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1404347532/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1404347532.dir/build.make CMakeFiles/cmTryCompileExec1404347532.dir/build
+make[1]: Entering directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1404347532.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec1404347532.dir/CheckIncludeFile.c.o   -c /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1404347532
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1404347532.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall     CMakeFiles/cmTryCompileExec1404347532.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1404347532 -rdynamic 
+make[1]: Leaving directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2658953600/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2658953600.dir/build.make CMakeFiles/cmTryCompileExec2658953600.dir/build
+make[1]: Entering directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2658953600.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec2658953600.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o   -c /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_UNSIGNED_SHORT.c
+Linking C executable cmTryCompileExec2658953600
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2658953600.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall     CMakeFiles/cmTryCompileExec2658953600.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o  -o cmTryCompileExec2658953600 -rdynamic 
+make[1]: Leaving directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2765254699/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2765254699.dir/build.make CMakeFiles/cmTryCompileExec2765254699.dir/build
+make[1]: Entering directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2765254699.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec2765254699.dir/CheckIncludeFiles.c.o   -c /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2765254699
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2765254699.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall     CMakeFiles/cmTryCompileExec2765254699.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2765254699 -rdynamic 
+make[1]: Leaving directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files alsa/asoundlib.h exist passed with the following output:
+Change Dir: /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2011518230/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2011518230.dir/build.make CMakeFiles/cmTryCompileExec2011518230.dir/build
+make[1]: Entering directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2011518230.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec2011518230.dir/CheckIncludeFiles.c.o   -c /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2011518230
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2011518230.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall     CMakeFiles/cmTryCompileExec2011518230.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2011518230 -rdynamic 
+make[1]: Leaving directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files stdio.h;jpeglib.h exist passed with the following output:
+Change Dir: /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1370642538/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1370642538.dir/build.make CMakeFiles/cmTryCompileExec1370642538.dir/build
+make[1]: Entering directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1370642538.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec1370642538.dir/CheckIncludeFiles.c.o   -c /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1370642538
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1370642538.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall     CMakeFiles/cmTryCompileExec1370642538.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1370642538 -rdynamic 
+make[1]: Leaving directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/types.h;linux/videodev2.h exist passed with the following output:
+Change Dir: /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1704431430/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1704431430.dir/build.make CMakeFiles/cmTryCompileExec1704431430.dir/build
+make[1]: Entering directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1704431430.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec1704431430.dir/CheckIncludeFiles.c.o   -c /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1704431430
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1704431430.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall     CMakeFiles/cmTryCompileExec1704431430.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1704431430 -rdynamic 
+make[1]: Leaving directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the inb_p exist passed with the following output:
+Change Dir: /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1041921641/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1041921641.dir/build.make CMakeFiles/cmTryCompileExec1041921641.dir/build
+make[1]: Entering directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1041921641.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec1041921641.dir/CheckSymbolExists.c.o   -c /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1041921641
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1041921641.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall     CMakeFiles/cmTryCompileExec1041921641.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1041921641 -rdynamic 
+make[1]: Leaving directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+File /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/io.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef inb_p
+  return ((int*)(&inb_p))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the outb_p exist passed with the following output:
+Change Dir: /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3990669158/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3990669158.dir/build.make CMakeFiles/cmTryCompileExec3990669158.dir/build
+make[1]: Entering directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3990669158.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec3990669158.dir/CheckSymbolExists.c.o   -c /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3990669158
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3990669158.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall     CMakeFiles/cmTryCompileExec3990669158.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3990669158 -rdynamic 
+make[1]: Leaving directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+File /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/io.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef outb_p
+  return ((int*)(&outb_p))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if files sys/io.h exist passed with the following output:
+Change Dir: /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2869981078/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2869981078.dir/build.make CMakeFiles/cmTryCompileExec2869981078.dir/build
+make[1]: Entering directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2869981078.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec2869981078.dir/CheckIncludeFiles.c.o   -c /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2869981078
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2869981078.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall     CMakeFiles/cmTryCompileExec2869981078.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2869981078 -rdynamic 
+make[1]: Leaving directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files linux/joystick.h exist passed with the following output:
+Change Dir: /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2449275595/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2449275595.dir/build.make CMakeFiles/cmTryCompileExec2449275595.dir/build
+make[1]: Entering directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2449275595.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec2449275595.dir/CheckIncludeFiles.c.o   -c /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2449275595
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2449275595.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall     CMakeFiles/cmTryCompileExec2449275595.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2449275595 -rdynamic 
+make[1]: Leaving directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files linux/serial.h exist passed with the following output:
+Change Dir: /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3411817357/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3411817357.dir/build.make CMakeFiles/cmTryCompileExec3411817357.dir/build
+make[1]: Entering directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3411817357.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec3411817357.dir/CheckIncludeFiles.c.o   -c /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3411817357
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3411817357.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall     CMakeFiles/cmTryCompileExec3411817357.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3411817357 -rdynamic 
+make[1]: Leaving directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files asm/ioctls.h exist passed with the following output:
+Change Dir: /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2314161263/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2314161263.dir/build.make CMakeFiles/cmTryCompileExec2314161263.dir/build
+make[1]: Entering directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2314161263.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec2314161263.dir/CheckIncludeFiles.c.o   -c /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2314161263
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2314161263.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall     CMakeFiles/cmTryCompileExec2314161263.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2314161263 -rdynamic 
+make[1]: Leaving directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files linux/serial.h exist passed with the following output:
+Change Dir: /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1879037579/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1879037579.dir/build.make CMakeFiles/cmTryCompileExec1879037579.dir/build
+make[1]: Entering directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1879037579.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec1879037579.dir/CheckIncludeFiles.c.o   -c /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1879037579
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1879037579.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall     CMakeFiles/cmTryCompileExec1879037579.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1879037579 -rdynamic 
+make[1]: Leaving directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function gtk_dialog_new_with_buttons exists passed with the following output:
+Change Dir: /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec778098852/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec778098852.dir/build.make CMakeFiles/cmTryCompileExec778098852.dir/build
+make[1]: Entering directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec778098852.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=gtk_dialog_new_with_buttons  -pthread -I/usr/include/gtk-2.0 -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/gio-unix-2.0 -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/libpng12 -I/usr/include/harfbuzz    -o CMakeFiles/cmTryCompileExec778098852.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec778098852
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec778098852.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=gtk_dialog_new_with_buttons  -pthread    CMakeFiles/cmTryCompileExec778098852.dir/CheckFunctionExists.c.o  -o cmTryCompileExec778098852 -rdynamic -lgtk-x11-2.0 -lgdk-x11-2.0 -latk-1.0 -lgio-2.0 -lpangoft2-1.0 -lpangocairo-1.0 -lgdk_pixbuf-2.0 -lcairo -lpango-1.0 -lfontconfig -lgobject-2.0 -lglib-2.0 -lfreetype 
+make[1]: Leaving directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function gtk_button_set_use_stock exists passed with the following output:
+Change Dir: /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec952701748/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec952701748.dir/build.make CMakeFiles/cmTryCompileExec952701748.dir/build
+make[1]: Entering directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec952701748.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=gtk_button_set_use_stock  -pthread -I/usr/include/gtk-2.0 -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/gio-unix-2.0 -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/libpng12 -I/usr/include/harfbuzz    -o CMakeFiles/cmTryCompileExec952701748.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec952701748
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec952701748.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=gtk_button_set_use_stock  -pthread    CMakeFiles/cmTryCompileExec952701748.dir/CheckFunctionExists.c.o  -o cmTryCompileExec952701748 -rdynamic -lgtk-x11-2.0 -lgdk-x11-2.0 -latk-1.0 -lgio-2.0 -lpangoft2-1.0 -lpangocairo-1.0 -lgdk_pixbuf-2.0 -lcairo -lpango-1.0 -lfontconfig -lgobject-2.0 -lglib-2.0 -lfreetype 
+make[1]: Leaving directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function gtk_dialog_run exists passed with the following output:
+Change Dir: /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec793458512/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec793458512.dir/build.make CMakeFiles/cmTryCompileExec793458512.dir/build
+make[1]: Entering directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec793458512.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=gtk_dialog_run  -pthread -I/usr/include/gtk-2.0 -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/gio-unix-2.0 -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/libpng12 -I/usr/include/harfbuzz    -o CMakeFiles/cmTryCompileExec793458512.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec793458512
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec793458512.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=gtk_dialog_run  -pthread    CMakeFiles/cmTryCompileExec793458512.dir/CheckFunctionExists.c.o  -o cmTryCompileExec793458512 -rdynamic -lgtk-x11-2.0 -lgdk-x11-2.0 -latk-1.0 -lgio-2.0 -lpangoft2-1.0 -lpangocairo-1.0 -lgdk_pixbuf-2.0 -lcairo -lpango-1.0 -lfontconfig -lgobject-2.0 -lglib-2.0 -lfreetype 
+make[1]: Leaving directory `/home/chryel/Documents/Senior_Design/code/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
