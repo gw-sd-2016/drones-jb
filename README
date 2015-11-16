@@ -1,0 +1,10 @@
+Currently an extension of PINT by James Marsh which can be found here: https://github.com/jcmarsh/PINT
+
+Libraries required for execution of PINT: player-3.0.2 and Stage.
+
+Player-3.0.2 can be found at http://sourceforge.net/p/playerstage/svn/HEAD/tree/code/player/trunk/
+Note: Although the folder is called player-3.0.2, the version required is 3.1.1 or above, which is the available version on the SVN.
+
+Stage (v. 4.1.1 and later) can be found at https://github.com/rtv/Stage
+
+This project aims to create a system of hot standbys that can take over for the main server when the main server loses functionality. For now, this project will attempt at creating the above situation with PINT, where remote backup servers will be able to start sending commands to the simulation created by Player/Stage once the main commanding server loses functionality.
